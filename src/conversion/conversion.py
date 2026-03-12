@@ -15,7 +15,7 @@ class Conversion:
             celsius_a_fahrenheit(0) -> 32.0
             celsius_a_fahrenheit(100) -> 212.0
         """
-        pass
+        return (celsius * 9/5) + 32
     
     def fahrenheit_a_celsius(self, fahrenheit):
         """
@@ -51,7 +51,7 @@ class Conversion:
             metros_a_pies(1) -> 3.28084
         """
         return metros * 3.28084
-    
+
     def pies_a_metros(self, pies):
         """
         Convierte distancia de pies a metros.
